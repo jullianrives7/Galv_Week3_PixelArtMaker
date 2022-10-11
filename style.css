@@ -1,0 +1,93 @@
+*{
+    font-family: 'Silkscreen', sans-serif;
+    background-color: slategrey;
+    margin:auto;
+}
+.title-container{
+    font-size: 50px;
+    color: black;
+    text-shadow: 3px 3px white ;
+    text-align: center;
+    text-justify: center;
+    vertical-align: center;
+    width: 675px;
+    height: 60px;
+    border: 5px solid black;
+    box-shadow: 0px 0px 3px 0px whitesmoke;
+    margin-bottom: 0px;
+    background-image: url("clouds.gif");
+}
+
+.grid-container{
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 675px;
+    height: 540px;
+    border: 5px solid black;
+    box-shadow: 0px 0px 3px 0px whitesmoke;
+    /* box-shadow: 0px 0px px 5px whitesmoke;  */
+    background-color: snow;
+}
+
+.grid-square{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.color-palette-container{
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    width: 675px;
+    height: 200px;
+    border: 5px solid black;
+    box-shadow: 0px 0px 3px 0px whitesmoke;
+    /* background-color: peachpuff; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("feetInGrass.gif");
+}
+.palette-colors-circles{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border: 5px solid black;
+    box-shadow: 0px 0px 3px 2px whitesmoke;
+    margin: 5px;
+   }
+.current-color-container{
+    width: 675px;
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+    border: 5px solid black;
+    box-shadow: 0px 0px .5px 0px whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+.current-color-text-box{
+    width: 450px;
+    height: 60px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px black ;
+    text-align: center;
+    border: 5px solid black;
+    box-shadow: 0px 0px 3px 0px whitesmoke;
+    background-image: url("discoTiles.gif");
+}
+.current-color-display-box{
+    width: 225px;
+    height: 60px;
+    font-size: 50px;
+    border: 5px solid black;
+    box-shadow: 0px 0px 3px 0px whitesmoke;
+    background-color: white;    
+}
