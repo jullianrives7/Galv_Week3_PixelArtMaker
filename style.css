@@ -92,7 +92,7 @@
     padding-top: 5px;
     display: flex;
     flex-direction: row;
-    align-content: flex-start;
+    align-content: center;
     width: 20%;
     height: 20%;
 }
