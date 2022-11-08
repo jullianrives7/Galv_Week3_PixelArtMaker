@@ -1,7 +1,16 @@
 *{
     font-family: 'Silkscreen', sans-serif;
-    background-color: slategrey;
+    /* background-color: slategrey; */
     margin:auto;
+}
+body{
+    background-image: url("wasteland.gif");
+    background-color: slategrey;
+    background-position: center;
+    background-size:cover;
+    max-height: fit-content;
+    background-repeat:repeat-y;
+    padding-top: 5%;
 }
 .title-container{
     font-size: 50px;
@@ -95,9 +104,17 @@
     align-content: center;
     width: 20%;
     height: 20%;
+    background: transparent;
 }
-/* #btn{
-align-content: center;
-height: 100%;
-width: 100%;
-} */
+.music-player{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+}
+#player-text{
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-shadow: 0px 0px 4px  white ;
+}

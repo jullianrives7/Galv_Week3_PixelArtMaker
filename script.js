@@ -4,6 +4,8 @@ const grid = document.querySelector("#grid");
 const $save = document.querySelector("#save");
 const $open = document.querySelector("#open");
 const $clear = document.querySelector("#clear");
+const $audio = document.querySelector("#audio");
+const $musicPlayer = document.querySelector("figure");
 //
 function makeBox() {
   const box = document.createElement("div");
@@ -172,3 +174,5 @@ $clear.addEventListener("click", function () {
     gridSquares[i].style.backgroundColor = "white";
   }
 });
+
+window.document.onload($audio.play());
