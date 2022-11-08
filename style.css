@@ -89,7 +89,7 @@
     background-color: white;    
 }
 .btn-container{
-    padding-top: 5px;
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
     align-content: center;
